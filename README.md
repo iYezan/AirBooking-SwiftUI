@@ -25,7 +25,7 @@
 |   |   |   |__ Explore            # Explore
 |   |   │   └── Viewmodel          # ViewModel for Location
 ```
-** Skills in this app
+## Skills in this app
 
 - SwiftUI
 - Dark Mode
