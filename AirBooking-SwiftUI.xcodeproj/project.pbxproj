@@ -10,7 +10,6 @@
 		2C2326642796066900995593 /* Popular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2326632796066900995593 /* Popular.swift */; };
 		2C8233B9278EE43D00AD1DC1 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8233B8278EE43D00AD1DC1 /* DetailsView.swift */; };
 		2C8233BB278EE44C00AD1DC1 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8233BA278EE44C00AD1DC1 /* ExploreView.swift */; };
-		2C8233C5278EE6ED00AD1DC1 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8233C4278EE6ED00AD1DC1 /* CategoryView.swift */; };
 		2CA5726C278CE65B00AEFDDB /* AirBooking_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5726B278CE65B00AEFDDB /* AirBooking_SwiftUIApp.swift */; };
 		2CA5726E278CE65B00AEFDDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5726D278CE65B00AEFDDB /* ContentView.swift */; };
 		2CA57270278CE65D00AEFDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA5726F278CE65D00AEFDDB /* Assets.xcassets */; };
@@ -24,7 +23,6 @@
 		2C2326632796066900995593 /* Popular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popular.swift; sourceTree = "<group>"; };
 		2C8233B8278EE43D00AD1DC1 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		2C8233BA278EE44C00AD1DC1 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
-		2C8233C4278EE6ED00AD1DC1 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		2CA57268278CE65B00AEFDDB /* AirBooking-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirBooking-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA5726B278CE65B00AEFDDB /* AirBooking_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBooking_SwiftUIApp.swift; sourceTree = "<group>"; };
 		2CA5726D278CE65B00AEFDDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +44,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C232665279612DC00995593 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				2CA57279278CE6F700AEFDDB /* LocationView.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		2C232666279612E900995593 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				2C8233B8278EE43D00AD1DC1 /* DetailsView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		2C232667279612F600995593 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				2C8233BA278EE44C00AD1DC1 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
 		2C8233BC278EE48200AD1DC1 /* Library */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				2CA5727B278CE89500AEFDDB /* Location.swift */,
-				2CA5727D278CEF1200AEFDDB /* Category.swift */,
 				2C2326632796066900995593 /* Popular.swift */,
+				2CA5727D278CEF1200AEFDDB /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -76,10 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				2C8233C3278EE51A00AD1DC1 /* Main */,
-				2CA57279278CE6F700AEFDDB /* LocationView.swift */,
-				2C8233C4278EE6ED00AD1DC1 /* CategoryView.swift */,
-				2C8233B8278EE43D00AD1DC1 /* DetailsView.swift */,
-				2C8233BA278EE44C00AD1DC1 /* ExploreView.swift */,
+				2C232665279612DC00995593 /* Location */,
+				2C232666279612E900995593 /* Details */,
+				2C232667279612F600995593 /* Explore */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,7 +225,6 @@
 				2CA5727E278CEF1200AEFDDB /* Category.swift in Sources */,
 				2CA5727A278CE6F700AEFDDB /* LocationView.swift in Sources */,
 				2CA5727C278CE89500AEFDDB /* Location.swift in Sources */,
-				2C8233C5278EE6ED00AD1DC1 /* CategoryView.swift in Sources */,
 				2CA5726C278CE65B00AEFDDB /* AirBooking_SwiftUIApp.swift in Sources */,
 				2C2326642796066900995593 /* Popular.swift in Sources */,
 			);
