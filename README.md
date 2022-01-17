@@ -5,7 +5,7 @@
 ├── Resources
 |
 ├── Library
-|   ├── Models             # Decodable location and category
+|   ├── Models             # Decodable location, popular and category
 |
 ├── Screens
 |   |
