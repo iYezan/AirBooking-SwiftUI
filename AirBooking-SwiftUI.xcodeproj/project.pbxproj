@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CA5726C278CE65B00AEFDDB /* AirlineBooking_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5726B278CE65B00AEFDDB /* AirlineBooking_SwiftUIApp.swift */; };
+		2C2326642796066900995593 /* Popular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2326632796066900995593 /* Popular.swift */; };
+		2C8233B9278EE43D00AD1DC1 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8233B8278EE43D00AD1DC1 /* DetailsView.swift */; };
+		2C8233BB278EE44C00AD1DC1 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8233BA278EE44C00AD1DC1 /* ExploreView.swift */; };
+		2C8233C5278EE6ED00AD1DC1 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8233C4278EE6ED00AD1DC1 /* CategoryView.swift */; };
+		2CA5726C278CE65B00AEFDDB /* AirBooking_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5726B278CE65B00AEFDDB /* AirBooking_SwiftUIApp.swift */; };
 		2CA5726E278CE65B00AEFDDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5726D278CE65B00AEFDDB /* ContentView.swift */; };
 		2CA57270278CE65D00AEFDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA5726F278CE65D00AEFDDB /* Assets.xcassets */; };
 		2CA57273278CE65D00AEFDDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA57272278CE65D00AEFDDB /* Preview Assets.xcassets */; };
+		2CA5727A278CE6F700AEFDDB /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA57279278CE6F700AEFDDB /* LocationView.swift */; };
+		2CA5727C278CE89500AEFDDB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5727B278CE89500AEFDDB /* Location.swift */; };
+		2CA5727E278CEF1200AEFDDB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5727D278CEF1200AEFDDB /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CA57268278CE65B00AEFDDB /* AirlineBooking-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirlineBooking-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CA5726B278CE65B00AEFDDB /* AirlineBooking_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineBooking_SwiftUIApp.swift; sourceTree = "<group>"; };
+		2C2326632796066900995593 /* Popular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popular.swift; sourceTree = "<group>"; };
+		2C8233B8278EE43D00AD1DC1 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		2C8233BA278EE44C00AD1DC1 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		2C8233C4278EE6ED00AD1DC1 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		2CA57268278CE65B00AEFDDB /* AirBooking-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirBooking-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA5726B278CE65B00AEFDDB /* AirBooking_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBooking_SwiftUIApp.swift; sourceTree = "<group>"; };
 		2CA5726D278CE65B00AEFDDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CA5726F278CE65D00AEFDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CA57272278CE65D00AEFDDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CA57279278CE6F700AEFDDB /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		2CA5727B278CE89500AEFDDB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2CA5727D278CEF1200AEFDDB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +46,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C8233BC278EE48200AD1DC1 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2C8233BE278EE4A400AD1DC1 /* Models */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		2C8233BD278EE49100AD1DC1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2C8233C0278EE4EB00AD1DC1 /* View */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2C8233BE278EE4A400AD1DC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5727B278CE89500AEFDDB /* Location.swift */,
+				2CA5727D278CEF1200AEFDDB /* Category.swift */,
+				2C2326632796066900995593 /* Popular.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C8233C0278EE4EB00AD1DC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C8233C3278EE51A00AD1DC1 /* Main */,
+				2CA57279278CE6F700AEFDDB /* LocationView.swift */,
+				2C8233C4278EE6ED00AD1DC1 /* CategoryView.swift */,
+				2C8233B8278EE43D00AD1DC1 /* DetailsView.swift */,
+				2C8233BA278EE44C00AD1DC1 /* ExploreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C8233C3278EE51A00AD1DC1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5726D278CE65B00AEFDDB /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		2CA5725F278CE65B00AEFDDB = {
 			isa = PBXGroup;
 			children = (
-				2CA5726A278CE65B00AEFDDB /* AirlineBooking-SwiftUI */,
+				2CA5726A278CE65B00AEFDDB /* Resources */,
 				2CA57269278CE65B00AEFDDB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +103,21 @@
 		2CA57269278CE65B00AEFDDB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CA57268278CE65B00AEFDDB /* AirlineBooking-SwiftUI.app */,
+				2CA57268278CE65B00AEFDDB /* AirBooking-SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CA5726A278CE65B00AEFDDB /* AirlineBooking-SwiftUI */ = {
+		2CA5726A278CE65B00AEFDDB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2CA5726B278CE65B00AEFDDB /* AirlineBooking_SwiftUIApp.swift */,
-				2CA5726D278CE65B00AEFDDB /* ContentView.swift */,
+				2CA5726B278CE65B00AEFDDB /* AirBooking_SwiftUIApp.swift */,
+				2C8233BC278EE48200AD1DC1 /* Library */,
+				2C8233BD278EE49100AD1DC1 /* Screens */,
 				2CA5726F278CE65D00AEFDDB /* Assets.xcassets */,
 				2CA57271278CE65D00AEFDDB /* Preview Content */,
 			);
-			path = "AirlineBooking-SwiftUI";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		2CA57271278CE65D00AEFDDB /* Preview Content */ = {
@@ -70,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CA57267278CE65B00AEFDDB /* AirlineBooking-SwiftUI */ = {
+		2CA57267278CE65B00AEFDDB /* AirBooking-SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CA57276278CE65D00AEFDDB /* Build configuration list for PBXNativeTarget "AirlineBooking-SwiftUI" */;
+			buildConfigurationList = 2CA57276278CE65D00AEFDDB /* Build configuration list for PBXNativeTarget "AirBooking-SwiftUI" */;
 			buildPhases = (
 				2CA57264278CE65B00AEFDDB /* Sources */,
 				2CA57265278CE65B00AEFDDB /* Frameworks */,
@@ -82,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = "AirlineBooking-SwiftUI";
+			name = "AirBooking-SwiftUI";
 			productName = "AirlineBooking-SwiftUI";
-			productReference = 2CA57268278CE65B00AEFDDB /* AirlineBooking-SwiftUI.app */;
+			productReference = 2CA57268278CE65B00AEFDDB /* AirBooking-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CA57263278CE65B00AEFDDB /* Build configuration list for PBXProject "AirlineBooking-SwiftUI" */;
+			buildConfigurationList = 2CA57263278CE65B00AEFDDB /* Build configuration list for PBXProject "AirBooking-SwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +176,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CA57267278CE65B00AEFDDB /* AirlineBooking-SwiftUI */,
+				2CA57267278CE65B00AEFDDB /* AirBooking-SwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8233BB278EE44C00AD1DC1 /* ExploreView.swift in Sources */,
+				2C8233B9278EE43D00AD1DC1 /* DetailsView.swift in Sources */,
 				2CA5726E278CE65B00AEFDDB /* ContentView.swift in Sources */,
-				2CA5726C278CE65B00AEFDDB /* AirlineBooking_SwiftUIApp.swift in Sources */,
+				2CA5727E278CEF1200AEFDDB /* Category.swift in Sources */,
+				2CA5727A278CE6F700AEFDDB /* LocationView.swift in Sources */,
+				2CA5727C278CE89500AEFDDB /* Location.swift in Sources */,
+				2C8233C5278EE6ED00AD1DC1 /* CategoryView.swift in Sources */,
+				2CA5726C278CE65B00AEFDDB /* AirBooking_SwiftUIApp.swift in Sources */,
+				2C2326642796066900995593 /* Popular.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AirlineBooking-SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = XT6726KZ8H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -282,11 +350,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iyezanApp.AirlineBooking-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iyezanApp.AirBooking-SwiftUI";
+				PRODUCT_NAME = "AirBooking-SwiftUI";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -297,7 +365,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AirlineBooking-SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "AirBooking-SwiftUI/Preview";
 				DEVELOPMENT_TEAM = XT6726KZ8H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,18 +379,18 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iyezanApp.AirlineBooking-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iyezanApp.AirBooking-SwiftUI";
+				PRODUCT_NAME = "AirBooking-SwiftUI";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CA57263278CE65B00AEFDDB /* Build configuration list for PBXProject "AirlineBooking-SwiftUI" */ = {
+		2CA57263278CE65B00AEFDDB /* Build configuration list for PBXProject "AirBooking-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CA57274278CE65D00AEFDDB /* Debug */,
@@ -331,7 +399,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CA57276278CE65D00AEFDDB /* Build configuration list for PBXNativeTarget "AirlineBooking-SwiftUI" */ = {
+		2CA57276278CE65D00AEFDDB /* Build configuration list for PBXNativeTarget "AirBooking-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CA57277278CE65D00AEFDDB /* Debug */,
