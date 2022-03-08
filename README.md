@@ -25,5 +25,5 @@
 ## Skills in this app
 
 - SwiftUI
-- Dark Mode
 - MVVM
+- Dark Mode
