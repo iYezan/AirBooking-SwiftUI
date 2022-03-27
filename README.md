@@ -30,4 +30,4 @@
 
 Clone the repository
 
-```$ git clone https://github.com/iYezan/ItunesPlus.git```
+```$ git clone https://github.com/iYezan/AirBooking-SwiftUI.git```
