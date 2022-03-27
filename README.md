@@ -27,3 +27,7 @@
 - SwiftUI
 - MVVM
 - Dark Mode
+
+Clone the repository
+
+```$ git clone https://github.com/iYezan/ItunesPlus.git```
