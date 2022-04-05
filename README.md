@@ -31,9 +31,7 @@
 # Demo
 
 <img src="https://user-images.githubusercontent.com/29463442/161794549-a554e2b5-6d9c-446b-a545-578190256574.png" width="250"> &nbsp; 
-<img src="https://user-images.githubusercontent.com/29463442/159361440-017c426c-7edf-4d2e-b3e3-379a1fdc0519.png" width="250">
-
-
+<img src="https://user-images.githubusercontent.com/29463442/161794991-9e376c3e-287e-4268-978b-9ec98a9d9270.png" width="250">
 
 Clone the repository
 
