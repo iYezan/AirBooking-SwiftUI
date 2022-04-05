@@ -29,7 +29,10 @@
 - Dark Mode
 
 # Demo
-![Simulator Screen Shot - iPhone 13 - 2022-04-05 at 16 47 46](https://user-images.githubusercontent.com/29463442/161794549-a554e2b5-6d9c-446b-a545-578190256574.png)
+
+<img src="https://user-images.githubusercontent.com/29463442/161794549-a554e2b5-6d9c-446b-a545-578190256574.png" width="250"> &nbsp; 
+<img src="https://user-images.githubusercontent.com/29463442/159361440-017c426c-7edf-4d2e-b3e3-379a1fdc0519.png" width="250">
+
 
 
 Clone the repository
